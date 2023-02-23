@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS 불러오기 -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- JavaScript 불러오기 -->
+    <script defer src="./main.js"></script>
+
+    <!-- jQuery 적용 -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <title>GameBoy Calculator</title>
+</head>
+
+<body>
+    <main> <!-- 본체 -->
+        <section id="lamp"> <!-- 전원 램프 -->
+
+        </section>
+        <section id="screenBorder"> <!-- 화면 테두리 -->
+            <section id="screen"> <!-- 화면 -->
+                <div>
+                    <p></p>
+                    <p></p>
+                </div>
+                <!--
+                <div>
+                    <p></p>
+                    <p>123456789012345</p>
+                </div>
+                <div>
+                    <p></p>
+                    <p>456</p>
+                </div>
+                -->
+            </section>
+        </section>
+        <section id="buttonsArea"> <!-- 버튼 영역 -->
+            <section class="subArea numbers"> <!-- 숫자 패드 -->
+                <button class="number">
+                    <p>7</p>
+                </button>
+                <button class="number">
+                    <p>8</p>
+                </button>
+                <button class="number">
+                    <p>9</p>
+                </button>
+                <button class="number">
+                    <p>4</p>
+                </button>
+                <button class="number">
+                    <p>5</p>
+                </button>
+                <button class="number">
+                    <p>6</p>
+                </button>
+                <button class="number">
+                    <p>1</p>
+                </button>
+                <button class="number">
+                    <p>2</p>
+                </button>
+                <button class="number">
+                    <p>3</p>
+                </button>
+                <button class="number">
+                    <p>0</p>
+                </button>
+                <button class="number">
+                    <p>.</p>
+                </button>
+                <button class="number backspace">
+                    <p>▶</p>
+                </button>
+            </section>
+            <section class="subArea operators"> <!-- 연산자 패드 ÷√×%+±−= -->
+                <button class="operator">
+                    <p>÷</p>
+                </button>
+                <button class="operator sqrt">
+                    <p>√</p>
+                </button>
+                <button class="operator">
+                    <p>×</p>
+                </button>
+                <button class="operator">
+                    <p>%</p>
+                </button>
+                <button class="operator">
+                    <p>+</p>
+                </button>
+                <button class="operator plusMinus">
+                    <p>±</p>
+                </button> <!-- ⁺/₋ -->
+                <button class="operator">
+                    <p>−</p>
+                </button>
+                <button class="operator">
+                    <p>=</p>
+                </button>
+            </section>
+        </section>
+        <section id="logo">
+
+        </section>
+    </main>
+
+    <aside> <!-- On/C 스위치 -->
+        <section id="switch"></section>
+        <!-- 
+        <section id="switchText">
+            <p>▲</p>
+            <p>On</p>
+            <p>/</p>
+            <p>C</p>
+        </section>
+        -->
+    </aside>
+</body>
+
+</html>
